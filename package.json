@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "Lab 6 solar system app",
   "main": "index.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/enyaw15/cst336Lab6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Wayne Hayden",
   "license": "ISC",
