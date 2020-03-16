@@ -2,8 +2,8 @@ var express = require("express");//import express
 var app = express();//create an app
 
 
-//tells the app to uss the css file to something you can look at
-app.use(express.static("css"));
+//tells the app to use the public folder
+app.use(express.static("public"));
 //set the view engine so we can use ejs
 app.set('view engine', 'ejs');
 
